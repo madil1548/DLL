@@ -1,0 +1,11 @@
+#include "stdafx.h"
+#include "windows.h"
+ 
+char *x = "hello";
+int APIENTRY WinMain(DEMO demo,
+DEMO dPrevEMO,
+int nCmdShow)
+{
+x = (char *)0x50000;
+return 0;
+}
